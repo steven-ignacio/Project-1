@@ -1,0 +1,18 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    width: 80%;
+}
+
+h1, h2, h4, h5 {
+    text-align: center;
+}
+
+td,
+li {
+    text-align: justify;
+}
+
+table {
+    width: 100%;
+}
