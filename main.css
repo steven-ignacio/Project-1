@@ -1,16 +1,38 @@
 body {
+    animation: fadeIn 1s;
+    padding: 30px 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.1em;
-    width: 80%;
+    font-size: 1.1em;    
 }
 
-h1, h2, h4, h5 {
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.flexjustify{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexcenter{
+    display: flex;
+    justify-content: center;
+}
+
+.hr-solid{
+    border: 1px solid black;
+    opacity: 1;
+    height: 2px;    
+}
+
+h1, h2, h4{
     text-align: center;
 }
 
-td,
-li {
+li{
     text-align: justify;
+    text-justify: inter-word;
 }
 
 table {
