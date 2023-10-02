@@ -22,8 +22,9 @@ body {
         padding: 5% !important;
     }
 
-    .info {
-        justify-content: space-around;
+    .info {        
+        flex-direction: column;
+        align-content: center;
     }
 
     p {
@@ -61,7 +62,7 @@ body {
     height: 2px;    
 }
 
-h1, h2, h4{
+h1, h2, h3{
     text-align: center;
 }
 
