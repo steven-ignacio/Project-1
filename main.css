@@ -18,6 +18,28 @@ body {
     gap: 4rem;
 }
 
+@media screen and (max-width: 1000px) {
+    body {
+        padding: 5% !important;
+    }
+
+    .info {
+        justify-content: space-around;
+    }
+
+    p {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .phone {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+}
+
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
