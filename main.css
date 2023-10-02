@@ -13,6 +13,11 @@ body {
     padding: 0 5%
 }
 
+.phone{    
+    display: flex;    
+    gap: 4rem;
+}
+
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
