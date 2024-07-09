@@ -59,7 +59,7 @@ app.component('resume', {
             <li><strong>Technical skills:</strong> HTML, CSS, C#(.NET), PHP, JavaScript
                 (Vue.js), Database (MSSQL, MySQL), Jira Software</li>
             <li><strong>Soft skills:</strong> Problem solving, attention to detail, communication, teamwork, curiosity</li>
-            <li><strong>Interests:</strong> Working out, cooking, technology, PC building, watching on YouTube, digital
+            <li><strong>Interests:</strong> Working out, cooking, technology, PC building, digital
                 drawing, playing video games, video editing</li>
         </ul>
     </div>`
