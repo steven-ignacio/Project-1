@@ -28,9 +28,8 @@ app.component('resume', {
         <i class="fa-solid fa-magnifying-glass"></i> Software Quality Assurance
         <ul>
             <li>Plasticbank is a company that aims to reduce the number of plastics in the world’s oceans by having
-                users collect plastics and rewarding them through the mobile app, then selling these plastics to
-                processors that recycle them into materials to be used for new products.</li>
-            <li>As part of the Software Quality Assurance team, I tested features of the company’s mobile and web
+                users collect plastics and rewarding them through the mobile application.</li>
+            <li>As part of the Software quality assurance team, I tested features of the company’s mobile and web
                 application to ensure that they are working according to specifications.</li>
             <ul>
                 <li>Documented the features of some web application pages for future reference.</li>
@@ -57,10 +56,9 @@ app.component('resume', {
         <h5><i class="fa-solid fa-screwdriver-wrench"></i> SKILLS & INTERESTS</h5>
         <hr />
         <ul>
-            <li><strong>Technical skills:</strong> HTML, CSS, C#(.NET, Entity Framework), PHP (Laravel), JavaScript
-                (Vue/Nuxt, NodeJS), Database (MSSQL, MySQL, MongoDB), Jira Software</li>
-            <li><strong>Soft skills:</strong> Problem solving, attention to detail, communication, teamwork, project
-                management (Agile)</li>
+            <li><strong>Technical skills:</strong> HTML, CSS, C#(.NET), PHP, JavaScript
+                (Vue.js), Database (MSSQL, MySQL), Jira Software</li>
+            <li><strong>Soft skills:</strong> Problem solving, attention to detail, communication, teamwork, curiosity</li>
             <li><strong>Interests:</strong> Working out, cooking, technology, PC building, watching on YouTube, digital
                 drawing, playing video games, video editing</li>
         </ul>
