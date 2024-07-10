@@ -60,6 +60,8 @@ app.component('resume', {
                 </li>
             </ul>
         </ul>
+
+        <br />
         <h5><i class="fa-solid fa-book-open"></i> <strong>EDUCATION</strong></h5>
         <hr />
         <div class="flexjustify">
