@@ -19,7 +19,25 @@ app.component('resume', {
                 Paranaque City, Metro Manila</p>
         </div>
         <hr class="hr-solid" />
-        <h5><i class="fa-solid fa-paperclip"></i> EXPERIENCE</h5>
+
+        <h5><i class="fa-solid fa-pencil"></i> <strong>PROJECTS</strong></h5>
+        <hr />
+        <div class="projects-banner">
+            <a href="https://groceline.vercel.app/" class="groceline-tab" target="_blank">
+                Groceline (WIP)
+            </a>
+
+            <a href="" class="pending-tab">
+                Pending...
+            </a>
+
+            <a href="" class="pending-tab">
+                Pending...
+            </a>
+        </div>
+
+        <br />
+        <h5><i class="fa-solid fa-paperclip"></i> <strong>EXPERIENCE</strong></h5>
         <hr />
         <div class="flexjustify">
             <strong>PlasticBank</strong>
@@ -42,7 +60,7 @@ app.component('resume', {
                 </li>
             </ul>
         </ul>
-        <h5><i class="fa-solid fa-book-open"></i> EDUCATION</h5>
+        <h5><i class="fa-solid fa-book-open"></i> <strong>EDUCATION</strong></h5>
         <hr />
         <div class="flexjustify">
             <p><strong>De La Salle College of Saint Benilde</strong></p>
@@ -52,8 +70,17 @@ app.component('resume', {
             <p>Bachelor of Science in Information Systems</p>
             <p style="text-align: right">Malate, Manila, Metro Manila </p>
         </div>
+
         <br />
-        <h5><i class="fa-solid fa-screwdriver-wrench"></i> SKILLS & INTERESTS</h5>
+        <h5><i class="fa-solid fa-globe"></i> <strong>ONLINE COURSES</strong></h5>
+        <hr />
+        <ul>
+            <li>Modern JavaScript by Shaun Pelling</li>
+            <li>Vue.Js 3 Tutorial by Shaun Pelling</li>
+        </ul>
+
+        <br />
+        <h5><i class="fa-solid fa-screwdriver-wrench"></i> <strong>SKILLS & INTERESTS</strong></h5>
         <hr />
         <ul>
             <li><strong>Technical skills:</strong> HTML, CSS, C#(.NET), PHP, JavaScript
