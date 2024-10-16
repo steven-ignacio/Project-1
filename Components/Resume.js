@@ -55,9 +55,9 @@ app.component('resume', {
                 <strong>PlasticBank</strong>
                 <strong>July 2021 - September 2021</strong>
             </div>
-            <i class="fa-solid fa-magnifying-glass"></i> Software Quality Assurance
+            <i class="fa-solid fa-magnifying-glass"></i> Software Quality Assurance Intern
             <ul>
-                <li>As part of the Software quality assurance team, I tested features of the company’s mobile and web
+                <li>As part of the Software quality assurance team I tested features of the company’s mobile and web
                     application to ensure that they are working according to specifications.</li>
                 <ul>
                     <li>Documented the features of some web application pages for future reference.</li>
@@ -72,6 +72,27 @@ app.component('resume', {
             </ul>
         </div>
 
+        <h5><i class="fa-solid fa-screwdriver-wrench"></i> <strong>SKILLS</strong></h5>
+        <hr />
+        <ul>
+            <li><strong>Technical skills:</strong></li>
+            <div class="flexjustifylist block">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>C#(.NET)</li>
+                    <li>PHP</li>
+                </ul>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>(Vue.js)</li>
+                    <li>Database (MSSQL, MySQL)</li>
+                    <li>Jira Software</li>
+                </ul>
+            </div>
+            <li><strong>Soft skills:</strong> Problem solving, attention to detail, openness to criticism, communication, teamwork, curiosity</li>
+        </ul>
+
         <div class="block">
             <h5><i class="fa-solid fa-globe"></i> <strong>ONLINE COURSES</strong></h5>
             <hr />
@@ -80,13 +101,5 @@ app.component('resume', {
                 <li>Vue.Js 3 Tutorial by Shaun Pelling</li>
             </ul>
         </div>
-
-        <h5><i class="fa-solid fa-screwdriver-wrench"></i> <strong>SKILLS</strong></h5>
-        <hr />
-        <ul>
-            <li><strong>Technical skills:</strong> HTML, CSS, C#(.NET), PHP, JavaScript
-                (Vue.js), Database (MSSQL, MySQL), Jira Software</li>
-            <li><strong>Soft skills:</strong> Problem solving, attention to detail, communication, teamwork, curiosity</li>
-        </ul>
     </div>`
 });
