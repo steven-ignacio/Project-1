@@ -1,7 +1,7 @@
 app.component('resume', {
     template:
-    /*html*/
-    `<div>
+        /*html*/
+        `<div>
         <h1>Steven Jerick G. Ignacio</h1>
         <h3>Software Developer</h3>
         <div class="info">
@@ -22,7 +22,7 @@ app.component('resume', {
 
         <h5><i class="fa-solid fa-pencil"></i> <strong>PROJECTS</strong></h5>
         <hr />
-        <div class="projects-banner">
+        <div class="projects-banner block">
             <a href="https://groceline.vercel.app/" class="groceline-tab" target="_blank">
                 Groceline (WIP)
             </a>
