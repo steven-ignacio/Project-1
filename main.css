@@ -51,11 +51,14 @@ a {
 }
 
 body {
-
     animation: fadeIn 1.4s;
     padding: 30px 20%;
     font-family: 'FH Phemister Test', sans-serif;
     font-size: 1.3rem;
+}
+
+.block {
+    margin-bottom: 15px;
 }
 
 .info {

@@ -35,54 +35,53 @@ app.component('resume', {
                 Pending...
             </a>
         </div>
-
-        <br />
-        <h5><i class="fa-solid fa-paperclip"></i> <strong>EXPERIENCE</strong></h5>
-        <hr />
-        <div class="flexjustify">
-            <strong>PlasticBank</strong>
-            <strong>July 2021 - September 2021</strong>
+        <div class="block">
+            <h5><i class="fa-solid fa-book-open"></i> <strong>EDUCATION</strong></h5>
+            <hr />
+            <div class="flexjustify">
+                <p><strong>De La Salle College of Saint Benilde</strong></p>
+                <p style="text-align: right"><strong>April 2022</strong></p>
+            </div>
+            <div class="flexjustify">
+                <p>Bachelor of Science in Information Systems</p>
+                <p style="text-align: right">Malate, Manila, Metro Manila </p>
+            </div>
         </div>
-        <i class="fa-solid fa-magnifying-glass"></i> Software Quality Assurance
-        <ul>
-            <li>Plasticbank is a company that aims to reduce the number of plastics in the world’s oceans by having
-                users collect plastics and rewarding them through the mobile application.</li>
-            <li>As part of the Software quality assurance team, I tested features of the company’s mobile and web
-                application to ensure that they are working according to specifications.</li>
+
+        <div class="block">
+            <h5><i class="fa-solid fa-paperclip"></i> <strong>EXPERIENCE</strong></h5>
+            <hr />
+            <div class="flexjustify">
+                <strong>PlasticBank</strong>
+                <strong>July 2021 - September 2021</strong>
+            </div>
+            <i class="fa-solid fa-magnifying-glass"></i> Software Quality Assurance
             <ul>
-                <li>Documented the features of some web application pages for future reference.</li>
-                <li>Created and performed hundreds of step-by-step test cases to check for errors in app functionality
-                    using Jira.</li>
-                <li>Created detailed tickets that reported the bugs found in testing.</li>
-                <li>Performed sanity testing to ensure that previously tested features are still working as expected.
-                </li>
-                <li>Communicated with the developers to clarify some issues, as well as demonstrate the discovered bugs.
-                </li>
+                <li>As part of the Software quality assurance team, I tested features of the company’s mobile and web
+                    application to ensure that they are working according to specifications.</li>
+                <ul>
+                    <li>Documented the features of some web application pages for future reference.</li>
+                    <li>Created and performed hundreds of step-by-step test cases to check for errors in app functionality
+                        using Jira.</li>
+                    <li>Created detailed tickets that reported the bugs found in testing.</li>
+                    <li>Performed sanity testing to ensure that previously tested features are still working as expected.
+                    </li>
+                    <li>Communicated with the developers to clarify some issues, as well as demonstrate the discovered bugs.
+                    </li>
+                </ul>
             </ul>
-        </ul>
-
-        <br />
-        <h5><i class="fa-solid fa-book-open"></i> <strong>EDUCATION</strong></h5>
-        <hr />
-        <div class="flexjustify">
-            <p><strong>De La Salle College of Saint Benilde</strong></p>
-            <p style="text-align: right"><strong>April 2022</strong></p>
-        </div>
-        <div class="flexjustify">
-            <p>Bachelor of Science in Information Systems</p>
-            <p style="text-align: right">Malate, Manila, Metro Manila </p>
         </div>
 
-        <br />
-        <h5><i class="fa-solid fa-globe"></i> <strong>ONLINE COURSES</strong></h5>
-        <hr />
-        <ul>
-            <li>Modern JavaScript by Shaun Pelling</li>
-            <li>Vue.Js 3 Tutorial by Shaun Pelling</li>
-        </ul>
+        <div class="block">
+            <h5><i class="fa-solid fa-globe"></i> <strong>ONLINE COURSES</strong></h5>
+            <hr />
+            <ul>
+                <li>Modern JavaScript by Shaun Pelling</li>
+                <li>Vue.Js 3 Tutorial by Shaun Pelling</li>
+            </ul>
+        </div>
 
-        <br />
-        <h5><i class="fa-solid fa-screwdriver-wrench"></i> <strong>SKILLS & INTERESTS</strong></h5>
+        <h5><i class="fa-solid fa-screwdriver-wrench"></i> <strong>SKILLS</strong></h5>
         <hr />
         <ul>
             <li><strong>Technical skills:</strong> HTML, CSS, C#(.NET), PHP, JavaScript
