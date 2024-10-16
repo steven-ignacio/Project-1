@@ -74,24 +74,26 @@ app.component('resume', {
 
         <h5><i class="fa-solid fa-screwdriver-wrench"></i> <strong>SKILLS</strong></h5>
         <hr />
-        <ul>
-            <li><strong>Technical skills:</strong></li>
-            <div class="flexjustifylist block">
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>C#(.NET)</li>
-                    <li>PHP</li>
-                </ul>
-                <ul>
-                    <li>JavaScript</li>
-                    <li>(Vue.js)</li>
-                    <li>Database (MSSQL, MySQL)</li>
-                    <li>Jira Software</li>
-                </ul>
-            </div>
-            <li><strong>Soft skills:</strong> Problem solving, attention to detail, openness to criticism, communication, teamwork, curiosity</li>
-        </ul>
+        <div class="block">
+            <ul>
+                <li><strong>Technical skills:</strong></li>
+                <div class="flexjustifylist block">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>C#(.NET)</li>
+                        <li>PHP</li>
+                    </ul>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>(Vue.js)</li>
+                        <li>Database (MSSQL, MySQL)</li>
+                        <li>Jira Software</li>
+                    </ul>
+                </div>
+                <li><strong>Soft skills:</strong> Problem solving, attention to detail, openness to criticism, communication, teamwork, curiosity</li>
+            </ul>
+        </div>
 
         <div class="block">
             <h5><i class="fa-solid fa-globe"></i> <strong>ONLINE COURSES</strong></h5>
