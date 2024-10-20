@@ -15,6 +15,8 @@ app.component('resume', {
                 </p>
                 <p><i class="fa-solid fa-diamond"></i></p>
             </div>
+            <p><i class="fa-brands fa-github"></i> <a href="https://github.com/steven-ignacio" target="_blank">github.com/steven-ignacio</a></p>
+            <br />
             <p style="display: flex; gap: 0.5rem; align-items: center;"><i class="fa-solid fa-location-dot"></i>
                 Paranaque City, Metro Manila</p>
         </div>
