@@ -3,7 +3,7 @@ app.component('resume', {
         /*html*/
         `<div>
         <h1>Steven Jerick G. Ignacio</h1>
-        <h3>Software Developer</h3>
+        <h3>Web Developer</h3>
         <div class="info">
             <p style="display: flex; gap: 0.5rem; align-items: center;"><i class="fa-solid fa-envelope"></i>
                 stevenignacio45@yahoo.com</p>
